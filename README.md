@@ -35,8 +35,8 @@ Platform : Google Colaboratory GPU
 - Implementation of a prediction function that predicts the best translation of an input English sentence to French using the trained model.
 
 ## References
-Based on the following implementations with enhancement
+Based on the following implementations with enhancement and problem fixing
 
-PyTorch Tutorial
-@spro/practical-pytorch
-@AuCson/PyTorch-Batch-Attention-Seq2seq
+- PyTorch Tutorial
+- spro/practical-pytorch
+- @AuCson/PyTorch-Batch-Attention-Seq2seq
