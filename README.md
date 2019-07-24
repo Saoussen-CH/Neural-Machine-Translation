@@ -12,23 +12,23 @@ Platform : Google Colaboratory GPU
 
 + Techniques : 
 
-** Preprocessing:
-+++ Removing Outliers
-+++ Tokenization and Removing Punctuation
-+++ Padding
-*** Splitting the dataset into Training (80%), Validation (10%) , Testing (10%)
+#### Preprocessing:
+- Removing Outliers
+- Tokenization and Removing Punctuation
+- Padding
+- Splitting the dataset into Training (80%), Validation (10%) , Testing (10%)
 
 ## - Modeling and Validation Phase : 
 
 + Techniques : 
-++ Implementing the Encoder in PyTorch, includes an Embedding layer and GRU cells
-++ Implementing the Decoder with Attention mechanism in PyTorch, includes an Embedding layer, GRU cells and Dropout 
-++ Implementing the sequence to sequence architecture in PyTorch with Batch processing.
-++ Implementation of a training and validation methods
-++ Hyperparameters Tuning
-++ Used Cross-validation technique
-++ Best validation accuracy : 92.01 % after 25 epochs
+- Implementing the Encoder in PyTorch, includes an Embedding layer and GRU cells
+- Implementing the Decoder with Attention mechanism in PyTorch, includes an Embedding layer, GRU cells and Dropout 
+- Implementing the sequence to sequence architecture in PyTorch with Batch processing.
+- Implementation of a training and validation methods
+- Hyperparameters Tuning
+- Used Cross-validation technique
+- Best validation accuracy : 92.01 % after 25 epochs
 
 ## - Testing Phase:
-++ Testing the trained model on the unseen test dataset resulted on an accuracy : 90.13 % 
-++ Implementation of a prediction function that predicts the best translation of an input English sentence to French using the trained model.
+- Testing the trained model on the unseen test dataset resulted on an accuracy : 90.13 % 
+- Implementation of a prediction function that predicts the best translation of an input English sentence to French using the trained model.
