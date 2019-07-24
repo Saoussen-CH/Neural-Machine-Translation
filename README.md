@@ -11,6 +11,7 @@ Platform : Google Colaboratory GPU
 - An English to French translation dataset of : 137861 english sentences and a corresponding 137861 french sentences 
 
 + Techniques : 
+
 ** Preprocessing:
 +++ Removing Outliers
 +++ Tokenization and Removing Punctuation
