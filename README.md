@@ -2,6 +2,7 @@
 Sequence to Sequence Neural Machine translation with Attention implemented in PyTorch 
 
 Framework and Libraries : PyTorch, Numpy
+
 Platform : Google Colaboratory GPU
 
 # Phases : 
