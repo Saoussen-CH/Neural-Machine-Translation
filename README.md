@@ -33,3 +33,10 @@ Platform : Google Colaboratory GPU
 ## - Testing Phase:
 - Testing the trained model on the unseen test dataset resulted on an accuracy : 90.13 % 
 - Implementation of a prediction function that predicts the best translation of an input English sentence to French using the trained model.
+
+## References
+Based on the following implementations with enhancement
+
+PyTorch Tutorial
+@spro/practical-pytorch
+@AuCson/PyTorch-Batch-Attention-Seq2seq
