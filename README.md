@@ -10,9 +10,9 @@ Platform : Google Colaboratory GPU
 
 - An English to French translation dataset of : 137861 english sentences and a corresponding 137861 french sentences 
 
-+ Techniques : 
+#### + Techniques : 
 
-#### Preprocessing:
+##### Preprocessing:
 - Removing Outliers
 - Tokenization and Removing Punctuation
 - Padding
@@ -20,7 +20,7 @@ Platform : Google Colaboratory GPU
 
 ## - Modeling and Validation Phase : 
 
-+ Techniques : 
+#### + Techniques : 
 - Implementing the Encoder in PyTorch, includes an Embedding layer and GRU cells
 - Implementing the Decoder with Attention mechanism in PyTorch, includes an Embedding layer, GRU cells and Dropout 
 - Implementing the sequence to sequence architecture in PyTorch with Batch processing.
